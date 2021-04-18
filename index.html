@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kenzie Game - Torre de Hanói</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  rel="shortcut icon"  href="images/favicon.ico">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <main>
+      <nav id="top">
+        <img src="images/kenzie.png" class="logo">
+        <a href="linksnav/about.html" Class="links_top">Sobre o Jogo</a>
+        <a href="linksnav/instructions.html" class="links_top">Instruções</a>
+        <a href="linksnav/presentation.html" class="links_top">Apresentação do Jogo</a>
+        <a href="index.html" class="links_top">Home</a>
+      </nav>
+
+      <div class="text-center">
+        <h1 class="kenzie text-center">Kenzie Game</h1>
+        <h1>Torre de Hanói</h1>
+      </div>
+
+      <div class="description">
+        <p class="firstDescription">Esse jogo tem como objetivo deslocar todos os discos do primeiro (da esquerda pra direita) pilar para o ultimo qualquer (da esquerda pra direita).</p>
+        <h3 class="goodluck"><strong>Boa sorte!</strong></h3>
+        <h1 class="text-center" id="finished"></h1>
+      </div>
+      <section class="text-center">
+          <p id="trophie1"><i class='text-center fas fa-trophy'></i></p>
+      </section>
+      <div class="game">
+        <div class="tower" id="tower"></div>
+        <div class="base"></div>
+        <nav>
+          <button type="submit" id="reset" class="buttonn"><i class='fas fa-history'></i> Reiniciar</button>
+          <button type="reset" id="undo" class="buttonn"><i class='fas fa-reply'></i> Desfazer Jogada</button>
+        </nav>
+        <div id="placar"></div>
+      </div>
+    </main>
+
+    <footer>
+    	<div class="main-content">
+    		<div class="left box">
+    			<h2>Sobre nós</h2>
+    			<div class="content">
+    				<p>Desenvolvido por Francielle de Abreu da Silva e João Lucas de Oliveira, ambos alunos da Kenzie Academy Brasil, com o intuito exclusivamente educacional.</p>
+    				<div class="social">
+    					<a href="https://www.facebook.com/kenzieacademybr/" target="_blank"><span class="fab fa-facebook-f"></span></a>
+    					<a href="https://www.twitter.com/kenzie_br" target="_blank"><span class="fab fa-twitter"></span></a>
+    					<a href="https://www.instagram.com/kenzieacademybr/?hl=pt-br" target="_blank"><span class="fab fa-instagram"></span></a>
+    					<a href="https://www.linkedin.com/school/kenzie-academy-brasil/" target="_blank"><span class="fab fa-linkedin"></span></a>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="center box">
+    			<h2>Endereço</h2>
+    			<div class="content">
+    				<div class="place">
+    					<span class="fas fa-map-marker-alt"></span>
+    					<span class="text">Curitiba, PR - Brasil</span>
+    				</div>
+    				<div class="phone">
+    					<span class="fas fa-phone-alt"></span>
+    					<span class="text">Telefone</span>
+    				</div>
+    				<div class="email">
+    					<span class="fas fa-envelope"></span>
+    					<span class="text">kenzieacademy@gmail.com</span>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="rigth box">
+    			<h2>Contato</h2>
+    			<div class="content">
+    				<form action="#">
+    					<div class="email">
+                <div class="text">Email *</div>
+    						<input type="email" required>
+              </div>
+    					<div class="msg">
+                <div class="text">Menssagem *</div>
+                <textarea rows="2" cols="25" required=""></textarea>
+              </div>
+    					  <div class="bottom">
+    						<button class="buttonn" type="submit">Enviar</button>
+    					</div>
+    				</form>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,418 @@
+body {
+  background-color: #7f8ef0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  --color-white: #ffffff; /* Background CONTENT */
+  --color-blue: #172454; /* Background NAV and FOOTER */
+  --overall-width: 100%; /*  */
+  --color-red: #b31212; /*  */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+  margin: 30px 30px;
+}
+
+.buttonn:hover {
+  cursor: pointer;
+}
+
+/* ------  NAVBAR  ------ */
+
+#top {
+  width: 100%;
+  height: 55px;
+  float: left;
+  background-color: var(--color-blue);
+}
+
+.logo {
+  width: 45px;
+  height: auto;
+  float: left;
+  margin: 5px;
+}
+
+.links_top {
+  float: right;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.links_top:hover {
+  text-decoration: underline;
+}
+
+/* ------  CONTENT  ------ */
+
+header {
+  text-align: center;
+}
+
+div.description {
+  margin: 20px;
+}
+
+h3.goodluck {
+  margin: 20px;
+  text-align: center;
+}
+
+div.game nav #reset{
+  margin-left: 40%;
+  margin-bottom: 30px;
+}
+
+#finished {
+  color: green;
+}
+
+.kenzie {
+  margin-top: 0;
+  padding-top: 90px;
+}
+
+#disco1 {
+  border: 1px solid black;
+  height: 25px;
+  width: 40px;
+  background-color: #ff0000;
+  border-radius: 5px;
+}
+
+#disco1:hover {
+  background-color: #941010;
+}
+
+#disco2 {
+  border: 1px solid black;
+  height: 25px;
+  width: 70px;
+  background-color: #ff00ff;
+  border-radius: 5px;
+}
+
+#disco2:hover {
+  background-color: #700070;
+}
+
+#disco3 {
+  border: 1px solid black;
+  height: 25px;
+  width: 100px;
+  background-color: #00ff00;
+  border-radius: 5px;
+}
+
+#disco3:hover{
+  background-color: #006b00;
+}
+
+#disco4 {
+  border: 1px solid black;
+  height: 25px;
+  width: 130px;
+  background-color: #eaff00;
+  border-radius: 5px;
+}
+
+#disco4:hover {
+  background-color: #7a8500;
+}
+
+#A, #B, #C {
+  height: 150px;
+  width: 15px;
+  background-color: chocolate;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: 70px 70px 0 70px;
+}
+
+.game {
+  background-color: #e3e0cc;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: auto 20px 20px 20px;
+}
+
+.tower {
+  display: flex;
+  justify-content: center;
+}
+
+.base {
+  height: 10px;
+  width: 60%;
+  background-color: chocolate;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 20% 70px 20%;
+}
+
+#reset {
+  height: 30px;
+  background-color: #00356b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+#reset:hover {
+  background-color: #0079c1;
+}
+
+#undo {
+  height: 30px;
+  background-color: #00356b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+#undo:hover {
+  background-color: #0079c1;
+}
+
+#trophie1 {
+  display: none;
+  font-size: 48px;
+  color: green;
+  text-align: center;
+  margin: 10px;
+}
+
+span.jogadas {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px 20% 10px 20%;
+  display: block;
+  text-align: center;
+}
+
+main {
+  background-color: #7f8ef0;
+}
+
+/* ------  presentation.html  ------ */
+
+.presentation h1 {
+  margin-top: 0;
+  padding-top: 90px;
+}
+
+.descrition {
+  margin: 30px 30px;
+}
+
+.tower-hanoi {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 100%;
+}
+
+/* ------  about.css  ------ */
+
+.about h1 {
+  margin-top: 0;
+  padding-top: 90px;
+}
+
+.lucas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/* ------  FOOTER  ------ */
+
+#footer {
+  width: var(--overall-width);
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  width: var(--overall-width);
+  background-color: var(--color-blue);
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+}
+
+.box .content p {
+  text-align: justify;
+}
+
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+  padding: 0 2px;
+}
+
+.left .content .social a span {
+  color: var(--color-blue);
+  height: 40px;
+  width: 40px;
+  background: #457b9d;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.selecionado {
+  background-color: black !important;
+}
+
+#alert {
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+  display: none;
+  margin-left: 12px;
+}
+
+.left .content .social a span:hover {
+  background: var(--color-red);
+}
+
+.rigth .content .email input {
+  color: rgb(0,0,0);
+}
+
+.rigth .content .msg textarea {
+  color: rgb(0,0,0);
+}
+
+.rigth .content .bottom button {
+  color: rgb(0,0,0);
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    flex-wrap: wrap;
+  }
+
+  .links_top {
+    font-size: 12px;
+    margin: 10px auto;
+    text-decoration: underline;
+    padding: 5px;
+  }
+
+  .box {
+    flex-basis: 100% !important;
+  }
+
+  .obras {
+    margin: 10px 20px;
+  }
+
+  .referencia {
+    margin: 10px 20px;
+  }
+
+  #disco1 {
+    height: 20px;
+    width: 40px;
+  }
+
+  #disco1:hover {
+    background-color: #941010;
+  }
+
+  #disco2 {
+    height: 20px;
+    width: 60px;
+  }
+
+  #disco2:hover {
+    background-color: #700070;
+  }
+
+  #disco3 {
+    height: 20px;
+    width: 80px;
+  }
+
+  #disco3:hover{
+    background-color: #006b00;
+  }
+
+  #disco4 {
+    height: 20px;
+    width: 100px;
+  }
+
+  #disco4:hover {
+    background-color: #7a8500;
+  }
+
+  #A, #B, #C {
+    height: 130px;
+    margin: 70px 45px 0 45px;
+  }
+
+  .game {
+    background-color: #e3e0cc;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: auto 20px 20px 20px;
+  }
+
+  .base {
+    height: 10px;
+    width: 94%;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 3% 70px 3%;
+  }
+
+  .tower {
+    display: flex;
+    margin-left: 5%;
+  }
+
+  div.game nav #reset{
+    margin-left: 20%;
+  }
+
+}
